@@ -1,5 +1,33 @@
 # ReverseLab
 
+<p align="center">
+  <img src="docs/assets/readme-banner.svg" alt="Repository overview banner" width="100%" />
+</p>
+
+<p align="center">
+  <img alt="Workflow" src="https://img.shields.io/badge/Workflow-Agent--native-B91C1C?style=flat-square" />
+  <img alt="Boards" src="https://img.shields.io/badge/Boards-Web_·_Android_·_Windows_·_General-27272A?style=flat-square" />
+  <img alt="Knowledge" src="https://img.shields.io/badge/Knowledge-Signal_to_tool_mapping-7F1D1D?style=flat-square" />
+  <img alt="License" src="https://img.shields.io/badge/License-GPL--3.0--only-2EA44F?style=flat-square" />
+</p>
+
+<p align="center"><a href="#路由">路由</a> · <a href="#知识库">知识库</a> · <a href="#目录约定">目录约定</a> · <a href="#安装">安装</a></p>
+
+## 一眼看懂
+
+| 维度 | 说明 |
+| --- | --- |
+| 定位 | 面向 Agent 的可复用逆向工程实验环境 |
+| 输入 | URL、APK、DEX、SO、PE、协议、密码学与其他分析信号 |
+| 核心链路 | 信号 → 知识路由 → 技术文件 → MCP 工具映射 → 执行 |
+| 产物边界 | 原始样本、工具输出、补丁、笔记和最终报告分目录保存 |
+| 使用前提 | 按目标类型选择 Web、Android、Windows 或 Common 工具安装路径 |
+
+> 下方现有安装命令中的克隆地址指向 `LING71671/open-reverselab`；使用本仓库副本时，请根据你的实际来源选择对应地址。
+
+---
+
+
 开源逆向工程实验环境。目录即约定，Agent 原生。
 
 > [English version](README.en.md)
